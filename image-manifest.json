@@ -1,0 +1,43 @@
+{
+ "room-ac-wardrobe": [
+  480,
+  960,
+  1100
+ ],
+ "room-wide": [
+  480,
+  900
+ ],
+ "room-bed": [
+  480,
+  675
+ ],
+ "bathroom": [
+  480,
+  675
+ ],
+ "room-corner": [
+  480,
+  900
+ ],
+ "corridor": [
+  480,
+  675
+ ],
+ "room-pillows": [
+  480,
+  675
+ ],
+ "room-fan": [
+  480,
+  675
+ ],
+ "reception": [
+  480,
+  900
+ ],
+ "room-blanket": [
+  480,
+  675
+ ]
+}

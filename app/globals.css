@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f2f0ea;
+  --ink: #1b211e;
+  --mut: #55605a;
+  --card: #fff;
+  --line: #d9d6cc;
+  --forest: #13352b;
+  --forest2: #1c4a3c;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1a16;
+    --ink: #ece8dc;
+    --mut: #a3b0a8;
+    --card: #16261f;
+    --line: #2b3d35;
+    --forest: #0a1713;
+    --forest2: #122a21;
+  }
+}
+
+@layer base {
+  h1, h2, h3 { font-family: var(--fd), Georgia, serif; font-weight: 400; line-height: 1.08; }
+  a:focus-visible, summary:focus-visible, button:focus-visible { outline: 3px solid #f0a42b; outline-offset: 3px; }
+  hotel-booking-engine { display: inline-block; }
+}
