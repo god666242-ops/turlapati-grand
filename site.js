@@ -86,3 +86,6 @@ export const site = {
     ["Can I book by phone?", "Yes. Call 93812 37595, 98664 82179 or 93900 27265."],
   ],
 };
+
+// Used by the Terms & Conditions and Privacy Policy pages (legal.js)
+export const policy = { checkIn: null, checkOut: null, googleFonts: false };

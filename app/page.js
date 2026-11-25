@@ -216,6 +216,10 @@ export default function Page() {
             {h.short}
             <br />
             <small>© {new Date().getFullYear()} {h.full}</small>
+            <br />
+            <a href="/terms" className="hover:text-white">Terms &amp; Conditions</a>
+            {" · "}
+            <a href="/privacy-policy" className="hover:text-white">Privacy Policy</a>
           </div>
           {phone && (
             <a href={`tel:${phone.tel}`} className="hover:text-white">
